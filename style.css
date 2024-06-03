@@ -1,0 +1,510 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.3);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+ 
+  .main-container {
+    display: none;
+    animation: fadeIn 0.5s ease forwards;
+  }
+  
+a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+ 
+}
+.container-fluid{
+  position: relative;
+    z-index: 100;
+ }
+.half-black {
+  background-color: black;
+  color: white;
+ 
+}
+.half-white {
+  background-color: white;
+  color: black;
+}
+
+.full-height {
+  height: 100vh;
+}
+.card-1{
+color: rgb(255, 255, 255);
+border-radius: 0;
+background: transparent !important;
+border: 2px solid white !important;
+width: 500px;
+height: 450px;
+overflow: hidden;
+}
+.card-2{
+color: rgb(0, 0, 0);
+border-radius: 0;
+  background: transparent !important ;
+  border: 2px solid rgb(0, 0, 0) !important; 
+width: 500px;
+height: 450px;
+
+}
+.content-1{
+font-size: 50px;
+font-weight: 1000;
+margin: 0px;
+}
+.content-2{
+font-size: 40px;
+font-weight: 500;
+margin: 0px;
+}
+.content-3{
+font-size: 24px;
+font-weight: 400;
+color: #4d4c4c;
+margin: 0px;
+padding: 0px;
+}
+.card-body{
+padding: 50px;
+}
+.initial{
+font-size: 30px;
+font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.home{
+  font-size: x-large;
+  font-weight: 600;
+  color: rgb(255, 255, 255) !important;
+  margin-right: 150px;
+
+}
+.nav-1{
+  position: absolute;
+  z-index: 104;
+  color: rgb(255, 255, 255) !important;
+  width: 50%;
+}
+.nav-2{
+  position: absolute;
+  z-index: 104;
+  color: rgb(255, 255, 255) !important;
+  height: 100%;
+
+}
+.nav-3{
+  position: absolute;
+  z-index: 101;
+  color: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+}
+.project{
+  transform: rotate(270deg);
+  font-size: x-large;
+  font-weight: 600;
+  margin-top: 150px;
+  color: rgb(255, 255, 255) !important;
+
+}
+.social{
+  margin-top: 300px;
+}
+.fa{
+  padding-bottom: 20px;
+}
+.sayhi{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+font-family: "Lobster", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.about{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  transform: rotate(90deg);
+  font-size: x-large;
+  font-weight: 700;
+}
+.skill{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  transform: rotate(90deg);
+  font-size: x-large;
+  font-weight: 700;
+}
+.main-nav{
+  height: 95%;
+}
+
+@media (max-width: 1150px) {
+
+  .card-1{
+color: rgb(255, 255, 255);
+border-radius: 0;
+background: transparent;
+border: 2px solid white; 
+width: 330px;
+height: 390px;
+}
+.card-2{
+color: rgb(0, 0, 0);
+border-radius: 0;
+background: transparent;
+border: 2px solid rgb(0, 0, 0); 
+width: 330px;
+height: 390px;
+
+}
+img{
+
+width:100%;
+
+}
+.content-1{
+font-size: 200;
+font-weight: 1000;
+margin: 0px;
+}
+.content-2{
+font-size: 150;
+font-weight: 500;
+margin: 0px;
+}
+.content-3{
+font-size: large;
+font-weight: 400;
+color: #706f6f;
+margin: 0px;
+padding: 0px;
+}
+.card-body{
+padding: 30px;
+}
+
+}
+
+
+@media (max-width: 767.98px) {
+  .half-black,
+  .half-white {
+    height: 50vh; 
+  }
+  .card-1{
+color: rgb(255, 255, 255);
+border-radius: 0;
+background: transparent;
+border: 2px solid white; 
+width: 400px;
+height: 200px;
+}
+.card-2{
+color: rgb(0, 0, 0);
+border-radius: 0;
+background: transparent;
+border: 2px solid rgb(0, 0, 0); 
+width: 400px;
+height: 200px;
+
+}
+.sayhi{
+  color: rgb(255, 255, 255) !important;
+  padding-right: 20px;
+}
+
+.about{
+  font-size: 20px;
+  color: rgb(255, 255, 255) !important;
+  transform: rotate(90deg);
+  font-size: x-large;
+  font-weight: 700;
+}
+img{
+
+width:80%;
+
+}
+.content-1{
+font-size: xx-large;
+font-weight: 1000;
+margin: 0px;
+}
+.content-2{
+font-size: x-large;
+font-weight: 500;
+margin: 0px;
+}
+.content-3{
+font-size: medium;
+font-weight: 400;
+color: #706f6f;
+margin: 0px;
+padding: 0px;
+}
+.card-body{
+padding: 10px;
+}
+.nav-2{
+  position: absolute;
+  z-index: 104;
+  color: rgb(255, 255, 255);
+  height: 100%;
+
+}
+.project{
+  transform: rotate(270deg);
+  font-size: x-large;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+
+}
+.fa{
+  color: black;
+}
+}
+
+
+
+@media (max-width: 520px) {
+  .half-black,
+  .half-white {
+    height: 50vh; 
+  }
+  .card-1{
+color: rgb(255, 255, 255);
+border-radius: 0;
+background: transparent;
+border: 2px solid white; 
+width: 300px;
+height: 200px;
+}
+.card-2{
+color: rgb(0, 0, 0);
+border-radius: 0;
+background: transparent;
+border: 2px solid rgb(0, 0, 0); 
+width: 300px;
+height: 200px;
+
+}
+img{
+
+width:85%;
+
+}
+
+.content-1{
+font-size: xx-large;
+font-weight: 1000;
+margin: 0px;
+}
+.content-2{
+font-size: x-large;
+font-weight: 500;
+margin: 0px;
+}
+.content-3{
+font-size: small;
+font-weight: 400;
+color: #797878;
+margin: 0px;
+padding: 0px;
+}
+.card-body{
+padding: 10px;
+}
+}
+ @media (max-width: 450px) {
+
+ .home{
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-right: 150px;
+
+}
+.about{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  transform: rotate(90deg);
+ 
+  font-weight: 700;
+}
+.skill{
+ 
+  color: rgb(0, 0, 0);
+  transform: rotate(90deg);
+  font-size:20px;
+  font-weight: 700;
+}
+.project{
+  transform: rotate(270deg);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 150px;
+  color: rgb(255, 255, 255);
+
+}
+  .half-black,
+  .half-white {
+    height: 50vh; 
+  }
+  .card-1{
+color: rgb(255, 255, 255);
+border-radius: 0;
+    padding:10px;
+background: transparent;
+border: 2px solid white; 
+width: 240px;
+height: 280px;
+}
+.card-2{
+color: rgb(0, 0, 0);
+border-radius: 0;
+background: transparent;
+border: 2px solid rgb(0, 0, 0); 
+width: 240px;
+height: 280px;
+
+}
+img{
+
+width:100%;
+
+}
+.content-1{
+font-size: xx-large;
+font-weight: 1000;
+margin: 0px;
+}
+.content-2{
+font-size: large;
+font-weight: 500;
+margin: 0px;
+}
+.content-3{
+font-size: 15px;
+font-weight: 300;
+color: #939090;
+margin: 0px;
+padding: 0px;
+}
+.card-body{
+padding: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for project.html */
+.project-container {
+  display: flex;
+  height: 100vh;
+}
+
+.project-container .half-black,
+.project-container .half-white {
+  height: 100%;
+  width: 50%;
+}
+
+.project-container .half-black {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-container .half-white {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-container .project-title {
+  font-size: 3rem;
+  font-family: "Lobster", sans-serif;
+  margin: 0;
+}
+
+.project-container .project-card {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: calc(100% - 2rem); /* Adjust width to account for margins */
+  max-width: 300px; /* Set a max-width for larger screens */
+  transition: transform 0.2s;
+}
+
+.project-container .project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-container .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.project-container .card-text {
+  font-size: 1rem;
+}
+
+.project-container .project-logo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Responsive styles for project.html */
+@media (max-width: 767.98px) {
+  .project-container {
+      flex-direction: column;
+  }
+
+  .project-container .half-black,
+  .project-container .half-white {
+      height: 50vh;
+      width: 100%;
+  }
+
+  .project-container .project-card {
+      width: 80%; /* Adjust as needed for responsiveness */
+  }
+}
+
+@media (max-width: 520px) {
+  .project-container .project-card {
+      width: 90%; /* Adjust as needed for responsiveness */
+  }
+}

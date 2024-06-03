@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shibiyarasu K B</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="main-container">
+  <div class="container-fluid p-0" id="speakButton">
+    <div class="row no-gutters">
+      <div class="nav-1 d-flex align-items-start justify-content-between p-3">
+        <div class="initial">KBS</div>
+        <div class="home px-5"><a href="#" style="color: inherit;">Home</a></div>
+      </div>
+      <div class="nav-2 d-flex flex-column align-items-center justify-content-end justify-content-around">
+        <div class="project"><a style="color: unset;" href="project.html">Project</a></div>
+        <div class="social d-flex flex-column align-items-end">
+          <div><a style="color: unset;" href="https://www.linkedin.com/in/shibiyarasu-k-b-1a48a0247/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:30px"></i></a></div>
+          <div><a href="https://github.com/Shibiyarasu-KB" target="_blank" style="color: unset;"><i class="fa fa-github" style="font-size: 30px;"></i></a></div>
+          <div><a style="color: unset;" href="https://www.instagram.com/k_b_shibi?igsh=MWV3bjgzeno2Ymsyaw==" target="_blank"><i class="fa fa-instagram" style="font-size:30px"></i></a></div>
+          <div><a style="color: unset;" href="https://www.facebook.com/shibi.yarasu" target="_blank"><i class="fa fa-facebook" style="font-size:30px; padding-right: 5px;"></i></a></div>
+        </div>
+      </div>
+      <div class="col-md-6 half-black full-height d-flex align-items-end align-items-md-center justify-content-md-end justify-content-center">
+        <div class="card card-1">
+          <div class="card-body">
+            <p class="content-1">HI,</p>
+            <p class="content-2">I'm Shibiyarasu K B.</p>
+            <p class="content-3">A self-motivated, highly skilled, and self-driven aspiring web developer with the ability to adapt to any situation and the proven ability to grow oneself and others.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 half-white full-height d-flex align-items-start align-items-md-center justify-content-md-start justify-content-center">
+        <div class="card card-2 d-flex align-items-center justify-content-end">
+          <img src="profile-img.12d0d0d9.png" alt="hi">
+        </div>
+      </div>
+      <div class="nav-3 d-flex flex-column align-items-end justify-content-between p-3">
+        <div class="sayhi"><a style="color: unset;" href="#">SAY HI..</a></div>
+        <div class="main-nav d-flex flex-column align-items-end justify-content-around pt-5">
+            <div class="about"><a style="color: black;" href="https://drive.google.com/file/d/1C0dccx6RG8L9G29Va6wa4NwFp-HtgJXM/view?usp=drive_link">Resume</a></div>
+            <div class="skill"><a style="color: unset;" href="skills.html">Skill</a></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  window.onload = function() {
+    var content = document.querySelector(".main-container");
+    content.style.display = "block";
+
+    if (content.requestFullscreen) {
+      content.requestFullscreen();
+    } else if (content.mozRequestFullScreen) {
+      content.mozRequestFullScreen();
+    } else if (content.webkitRequestFullscreen) {
+      content.webkitRequestFullscreen();
+    } else if (content.msRequestFullscreen) {
+      content.msRequestFullscreen();
+    }
+
+    var message = new SpeechSynthesisUtterance("I am grateful to welcome you!");
+    message.voice = speechSynthesis.getVoices()[4];
+    speechSynthesis.speak(message);
+  };
+</script>
+</body>
+</html>

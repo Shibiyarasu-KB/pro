@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+  
+.left, .right {
+    height: 100vh;
+}
+  
+.left {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lobster", sans-serif; /* Apply Lobster font to the left section */
+}
+
+.left h1 {
+    font-size: 3rem; /* Adjusting the font size */
+}
+  
+.right {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+  
+.card {
+    width: calc(50% - 20px);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    height: 200px; /* Adjust as needed */
+    padding: 20px; /* Adjust padding as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: auto; /* Center the image */
+    display: block; /* Ensure proper spacing */
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 0;
+}
+
+.hacker-link a {
+    color: black; /* Set the color of HackerRank link to black */
+}
